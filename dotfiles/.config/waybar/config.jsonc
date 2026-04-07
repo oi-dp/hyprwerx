@@ -23,6 +23,7 @@
   "modules-center": [],
 
   "modules-right": [
+    "custom/updater",
     "custom/sep",
     "network",
     "custom/sep",

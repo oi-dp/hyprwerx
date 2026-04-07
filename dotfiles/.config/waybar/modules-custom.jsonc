@@ -38,4 +38,15 @@
     "tooltip": true,
     "tooltip-format": "Exit Hyprland",
   },
+
+  "custom/updater": {
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/arch_updater.sh",
+    "return-type": "json",
+    "interval": 21600,
+    "signal": 8,
+    "on-click": "notify-send 'Checking updates' 'Manual checking triggered' && ~/.config/waybar/scripts/arch_updater.sh && pkill -SIGRTMIN+8 waybar",
+    "tooltip": true,
+    //"tooltip-format": "Click to check system update",
+  },
 }

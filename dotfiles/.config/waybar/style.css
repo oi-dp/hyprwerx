@@ -53,6 +53,7 @@ button:hover {
 #clock,
 #custom-sep,
 #custom-sep2,
+#custom-updater,
 #custom-power,
 #custom-lock,
 #custom-reboot,
@@ -72,6 +73,35 @@ button:hover {
 
 #custom-power {
   color: @red;
+}
+
+#custom-updater {
+  transition: color 0.2s ease;
+}
+
+#custom-updater.noupdates {
+  color: @fg;
+  animation: none;
+}
+
+#custom-updater.updates {
+  color: @red;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 0px @red;
+  }
+  50% {
+    opacity: 0.6;
+    text-shadow: 0 0 4px @red;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 0px @red;
+  }
 }
 
 #clock {

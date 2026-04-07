@@ -28,6 +28,7 @@
   "network": {
     "format": "󱘖  ONLINE",
     "format-disconnected": "OFFLINE ⚠",
+    "tooltip": false,
   },
 
   "cpu": {
