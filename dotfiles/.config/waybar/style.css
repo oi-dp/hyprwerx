@@ -4,12 +4,12 @@
 @define-color red   #f7768e;
 @define-color grn   #9ece6a;
 @define-color ylw   #e0af68;
-@define-color blu   #7aa2f7;
+@define-color blu   #85b1f7;
 @define-color mag   #ad8ee6;
 @define-color cyn   #0db9d7;
 @define-color brblk #444b6a;
 @define-color white #c0caf6;
-@define-color purp  #5c6acc;
+@define-color purp  #6e7cea;
 
 * {
   font-family: "JetBrainsMono Nerd Font", monospace;
