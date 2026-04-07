@@ -1,0 +1,41 @@
+{
+  "custom/sep": {
+    "format": "|",
+    "interval": "once",
+    "tooltip": false,
+  },
+
+  "custom/sep2": {
+    "format": "",
+    "interval": "once",
+    "tooltip": false,
+  },
+
+  "custom/power": {
+    "format": "⏻  ",
+    "on-click": "",
+    "tooltip": true,
+    "tooltip-format": "Power Menu - this doesn't actually do anyting",
+  },
+
+  "custom/reboot": {
+    "format": "󰜉",
+    "on-click": "systemctl reboot",
+    "tooltip": true,
+    "tooltip-format": "Reboot",
+  },
+
+  "custom/lock": {
+    "format": "󰌾",
+    "on-click": "", // have to actually use external lockscreen app
+    "tooltip": true,
+    "tooltip-format": "󰷛 Screen Lock",
+  },
+
+  "custom/exit": {
+    "format": "󰗼",
+    "on-click": "command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit",
+    "tooltip": true,
+    "tooltip-format": "Exit Hyprland",
+  },
+}

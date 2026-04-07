@@ -1,0 +1,28 @@
+{
+  "group/time": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 500,
+      "children-class": "clock",
+      "trasnsition-left-to-right": true,
+    },
+    "modules": ["clock", "clock#2"],
+  },
+
+  "group/power": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 500,
+      "children-class": "custom/power",
+      "trasnsition-left-to-right": false,
+    },
+    "modules": [
+      "custom/power",
+      "custom/sep2",
+      "custom/reboot",
+      "custom/lock",
+      "custom/exit",
+      "custom/sep2",
+    ],
+  },
+}
