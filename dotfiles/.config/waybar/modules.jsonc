@@ -7,13 +7,13 @@
     "warp-on-scroll": false,
     "format": "{name}",
     "persistent-workspaces": {
-      "*": 5,
-    },
+      "*": 5
+    }
   },
 
   "hyprland/window": {
     "max-length": 40,
-    "seperate-outputs": false,
+    "seperate-outputs": false
   },
 
   "temperature": {
@@ -22,41 +22,41 @@
     "critical-threshold": 80,
     "format-critical": " {temperatureC}°C",
     "format": " {temperatureC}°C",
-    "tooltip": false,
+    "tooltip": false
   },
 
   "network": {
     "format": "󱘖  ONLINE",
     "format-disconnected": "OFFLINE ⚠",
-    "tooltip": false,
+    "tooltip": false
   },
 
   "cpu": {
     "format": "󰍛 {usage}%",
-    "tooltip": false,
+    "tooltip": false
   },
 
   "memory": {
     "format": "󰓅 {used}GiB",
-    "tooltip": false,
+    "tooltip": false
   },
 
   "pulseaudio": {
     "scroll-step": 2,
     "format": "  {volume}%",
     "format-muted": " Muted",
-    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
   },
 
   "clock": {
     "format": "{:%H:%M:%S}",
     //"format": "{:%H:%M - %a %d}",
     "interval": 1,
-    "tooltip": false,
+    "tooltip": false
   },
 
   "clock#2": {
     "format": "- {:%a, %d %B %Y}",
-    "tooltip": false,
-  },
+    "tooltip": false
+  }
 }
