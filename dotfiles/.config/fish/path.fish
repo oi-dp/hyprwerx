@@ -1,9 +1,7 @@
 # This file is for adding custom paths to the PATH variable and other related environment variables.
 
-
 # PATH
-fish_add_path $HOME/.spicetify $HOME/.local/bin
-
+fish_add_path $HOME/.local/bin
 
 # ENVIRONMENT
 
