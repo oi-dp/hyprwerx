@@ -23,6 +23,8 @@
   "modules-center": [],
 
   "modules-right": [
+    "custom/ticker",
+    "custom/sep",
     "custom/updater",
     "custom/sep",
     "network",

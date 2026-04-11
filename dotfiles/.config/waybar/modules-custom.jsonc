@@ -27,7 +27,7 @@
 
   "custom/lock": {
     "format": "󰌾",
-    "on-click": "", // have to actually use external lockscreen app
+    "on-click": "",
     "tooltip": true,
     "tooltip-format": "󰷛 Screen Lock"
   },
@@ -47,6 +47,11 @@
     "signal": 8,
     "on-click": "notify-send 'Checking updates' 'Manual checking triggered' && ~/.config/waybar/scripts/arch_updater.sh && pkill -SIGRTMIN+8 waybar",
     "tooltip": true
-    //"tooltip-format": "Click to check system update",
+  },
+
+  "custom/ticker": {
+    "format": "{}",
+    "exec": "python ~/hyprwerx/scripts/ticker.py",
+    "return-type": "json"
   }
 }
