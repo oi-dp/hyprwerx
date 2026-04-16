@@ -8,7 +8,7 @@ function floatfoot
         if test "$WIN_FLOATING" = "false"
             hyprctl dispatch togglefloating
             sleep 0.05
-            hyprctl dispatch resizeactive exact 800 500
+            hyprctl dispatch resizeactive exact 750 500
         else
             hyprctl dispatch togglefloating
         end
