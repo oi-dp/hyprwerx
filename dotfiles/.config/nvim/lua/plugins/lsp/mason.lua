@@ -13,6 +13,7 @@ return {
   },
   {
     "williamboman/mason-lspconfig.nvim",
+    dependencies = { "williamboman/mason.nvim" },
     opts = {
       ensure_installed = {
         "ts_ls",
@@ -21,12 +22,6 @@ return {
         "pyright",
         "jsonls",
       },
-    },
-    config = function(_, opts)
-      require("mason-lspconfig").setup(opts)
-    end,
-    dependencies = {
-      "mason.nvim",
     },
   },
 }

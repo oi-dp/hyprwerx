@@ -17,11 +17,6 @@ return {
     })
 
     local servers = { "ts_ls", "cssls", "lua_ls", "pyright", "jsonls" }
-
-    require("mason-lspconfig").setup({
-      ensure_installed = servers,
-    })
-
     for _, server in ipairs(servers) do
       vim.lsp.enable(server)
     end
